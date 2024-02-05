@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding:auto;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(phone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color:#e6fa03;
+}       
+nav{
+    background:crimson;
+    display: block;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    align-items: center;
+    color: blue;
+    transition-duration: .5s;
+}
+nav a:hover{
+    background-color: light grey;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+h1{
+    color: red;
+}
+.box-1 h2{
+    color: red;
+}
+.box-2 h2{
+    margin-right: auto;
+    color: red;
+}
+.box-3 h2{
+    color: red;
+}
+.box-4 h2{
+    color: red;
+}
