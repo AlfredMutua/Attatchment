@@ -1,72 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!--Main css-->
+    <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <nav>
-        <ul>
-            <li><a href="#">Coding4U</a></li>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            
-        </ul>
-    </nav>
-   
-   <section id="About Me">
-        <h1>Alfred Mutua</h1>
-        <img src="alfred.jpg" height="200px" width="150px">
-            <p>I am a passionate and well motivated software developer both front ended and back ended.I have worked in the
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!--Home Section Design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello</h3>
+            <h1>Alfred Mutua</h1>
+            <h3>And I am a <span>Full Stack Developer</span></h3>
+            <p>I am a passionate and well motivated software developer both front ended and back ended.I have worked in
+                the
+                field of software development for more than seven years. During this seven years, I have well
+                learnt,familiarized and employed skills such as:SQL,R coding,PHP,C#,Javascript and C.</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+           
+        </div>
+
+        <div class="home-image">
+            <img src="alfred.jpg" width="250vw">
+        </div>
+    </section>
+    <!--About Section Design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="alfred.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+           <h2 class="heading">About <span>Me</span></h2> 
+           <h3>Full Stack Developer</h3>
+           <p>I am a passionate and well motivated software developer both front ended and back ended.I have worked in
+            the
             field of software development for more than seven years. During this seven years, I have well
             learnt,familiarized and employed skills such as:SQL,R coding,PHP,C#,Javascript and C.</p>
-        </section>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+    <!--Section Section Design-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="service-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>I will offer my best once given a task to undertake.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
 
-<section>
-    <div class="box-1">
-    <h2>Education</h2>
-    <p>JKUAT</p>
-    <p>Diploma IT</p>
- </section>
+            <div class="service-container">
+                <div class="services-box">
+                    <i class="fa-solid fa-palette"></i>
+                    <h3>Designing</h3>
+                    <p>I will offer my best once given a task to undertake.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="service-container">
+                    <div class="services-box">
+                        <i class="fa-brands fa-android"></i>
+                        <h3>Android App development</h3>
+                        <p>I will offer my best once given a task to undertake.</p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+        </div>
+    </section>
+    <!--Contact Section Design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email" required>
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Tel number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class ="btn">
+        </form>
+    </section>
+
     
-<section>
-    <div class="box-2">
-        <h2>Skills</h2>
-        <ol>
-            <li>Html</li>
-            <li>C</li>
-            <li>C++</li>
-            <li>CSS</li>
-            <li>R coding</li>
-            <li>SQL</li>
-        </ol>
-    </div>
-</section>
-    
-<section>
-    <div class="box-3">
-        <h2>Hobbies</h2>
-        <ul>
-            <li>Football</li>
-            <li>Computer repair</li>
-            <li>Swimming</li>
-        </ul>
-    </div>
-</section>
-   
-<section>
-    <div class="box-4">
-        <h2>Contact</h2>
-        <p>Phone: <a href="tel:+254757071030">+254757071030</a></p>
-        <p>Email: <a href="mailto: alfredmmutua093@gmail.com" target="_blank">alfredmmutua093@gmail.com</a></p>
-    </div>
-</section>
-   
 
 </body>
+
 </html>
